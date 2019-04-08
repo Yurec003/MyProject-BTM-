@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#FF898989"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="85dp"
+                android:layout_height="59dp"
+                android:onClick="FirstActivity"
+                android:text="Main menu"></Button>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FF898989"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView
+                    TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView TextView " />
+            </ScrollView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
